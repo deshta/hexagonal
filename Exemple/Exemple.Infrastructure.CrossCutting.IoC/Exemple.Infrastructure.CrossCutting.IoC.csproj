@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Harpy.IoC" Version="1.0.8.15" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Exemple.Domain\Exemple.Domain.csproj" />
+    <ProjectReference Include="..\Exemple.Infrastructure.Data.Repository\Exemple.Infrastructure.Data.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
