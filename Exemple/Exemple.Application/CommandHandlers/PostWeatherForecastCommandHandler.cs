@@ -27,7 +27,7 @@ namespace Exemple.Application.CommandHandlers {
         public override async Task<WeatherForecast> Handle( PostWeatherForecastCommand command, CancellationToken cancellationToken ) {
             var valid = await IsValidAsync( command, cancellationToken );
 
-            if ( !valid )
+            if ( true )
                 return null;
 
             var weatherForecast = new WeatherForecast(
