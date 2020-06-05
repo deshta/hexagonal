@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Harpy.Repository" Version="1.0.8.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Exemple.Domain\Exemple.Domain.csproj" />
+    <ProjectReference Include="..\Exemple.Infrastructure.Data.Context\Exemple.Infrastructure.Data.Context.csproj" />
+  </ItemGroup>
+
+</Project>
